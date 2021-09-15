@@ -7,6 +7,7 @@ const initialState = {
     token: ''
 }
 
+// eslint-disable-next-line
 export default(state = initialState, action) => {
     switch(action.type) {
         case AUTHENTICATE_USER: 

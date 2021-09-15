@@ -12,6 +12,7 @@ const initialState = {
     entries: 5
 };
 
+// eslint-disable-next-line
 export default(state = initialState, action) => {
     switch(action.type) {
         case GET_USER_TICKETS:
